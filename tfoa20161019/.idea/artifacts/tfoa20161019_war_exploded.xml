@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tfoa20161019:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/tfoa20161019_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tfoa20161019" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="application_server_libraries" name="Tomcat 7.0.42" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="tfoa20161019/web/Web" />
+    </root>
+  </artifact>
+</component>
